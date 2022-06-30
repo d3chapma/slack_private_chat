@@ -1,24 +1,16 @@
-# README
+Ephermal chat rooms that are easy to create, easy to join, and integrates with Slack.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Uses:
 
-Things you may want to cover:
+- Rails API with ActionCable
+- React
 
-* Ruby version
+# TODO
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [ ] Can enter a chat room by going to url /room/:id
+- [ ] Must enter a name when entering a chat room so you can be identified
+- [ ] Can chat with self
+- [ ] Loading a room shows messages from last 3 hours
+- [ ] Can chat with others
+- [ ] Can generate new random room by going to /new_room
+- [ ] Slack slash command to create a new room and post a message in slack channel
